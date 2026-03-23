@@ -7,7 +7,7 @@ interface CardArticlesProps {
 }
 export const CardArticle = ({ name, price, img }: CardArticlesProps) => {
   return (
-    <div className="w-1/3 max-md:w-1/2 max-md:border-t">
+    <div className="w-1/3 max-md:w-1/2 max-md:border-t max-sm:w-full">
       <div>
         <img src={img} alt={`Une image des ${name}`} className="w-full border-l border-b border-t"/>
       </div>

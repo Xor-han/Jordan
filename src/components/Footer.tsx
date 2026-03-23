@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="border-t">
       <div className="flex justify-between max-md:flex max-md:flex-col">
-        <div className="flex gap-20 w-1/2 border-r border-l border-b p-10 max-md:w-full">
+        <div className="flex gap-20 w-1/2 border-r border-l border-b p-10 max-md:w-full max-sm:flex-wrap">
           <nav>
             <h3 className="text-lg font-bold uppercase">Compagny</h3>
             <ul className="text-sm">
@@ -54,18 +54,17 @@ export const Footer = () => {
             </ul>
           </nav>
         </div>
-        <div className="w-1/2 p-10 border-r border-b flex flex-col gap-6 max-md:w-full">
+        <div className="w-1/2 p-10 border-r border-b flex flex-col gap-6 max-md:w-full ">
           <p className="text-lg font-bold uppercase">Email Adress</p>
           <div>
             <input
               type="email"
               placeholder="Enter your email"
-              className="border-l border-t border-b pl-4 pb-4 pr-28 pt-4"
-            >
-            </input>
-              <button className=" border border-black px-6 uppercase bg-red-500 text-white py-4 hover:bg-red-800">
-                Submit
-              </button>
+              className="border-l border-t border-b pl-4 pb-4 pr-28 pt-4 max-sm:pr-20"
+            ></input>
+            <button className=" border border-black px-6 uppercase bg-red-500 text-white py-4 hover:bg-red-800">
+              Submit
+            </button>
           </div>
         </div>
       </div>

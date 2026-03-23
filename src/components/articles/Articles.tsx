@@ -8,7 +8,7 @@ export const Articles = ({ visible }: ArticlesProps) => {
   const displayedArticles = articlesData.slice(0, visible);
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap max-sm:flex-col">
       {displayedArticles.map((article) => (
         <CardArticle
           name={article.name}
