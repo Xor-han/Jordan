@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Jordan MVP 92",
+        "price" : 145 ,
+        "img" : "./Jordan MVP 92.png"
+    },
+    {
+        "name" : "Jordan Son of Mars Low",
+        "price": 165,
+        "img": "./Jordan son of mars low.png"
+    },
+    {
+        "name" : "Air Jordan 1 Mid",
+        "price" : 130,
+        "img": "./Air Jordan 1 mid.png"
+    },
+    {
+        "name" : "Jordan Jumpman Pro",
+        "price" : 150,
+        "img" : "./Jordan Jumpman.png"
+    },
+    {
+        "name" : "Air Jordan 3 Retro",
+        "price" : 215,
+        "img" : "./Jordan Retro.png"
+    },
+    {
+        "name" : "Air Jordan OG",
+        "price" : 155,
+        "img" : "./Air Jordan OG.png"
+    }
+]
